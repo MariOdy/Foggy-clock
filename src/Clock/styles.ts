@@ -21,4 +21,12 @@ export const ClockWrapper = styled.div`
     top: 20px;
     font-size: 25px;
   }
+
+  @media (max-width: 760px) {
+    h2{
+      font-size: 60px;
+
+    }
+    
+  }
 `;
